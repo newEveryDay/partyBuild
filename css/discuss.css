@@ -1,0 +1,46 @@
+.container .container-inner{width: 1000px;margin: 0 auto;padding: 0}
+.container .container-inner .discuss{box-shadow: 1px 1.732px 8px 0px rgb( 152, 152, 152 );text-align: center;padding: 0 28px 20px}
+.container .container-inner .discuss h2{line-height: 100px;font-size: 26px}
+.container .container-inner .discuss img{display: inline-block;}
+.container .container-inner .discuss p{text-align:left;line-height: 32px;font-size: 16px;}
+
+/* 讨论区 */
+.discuss-area{border:1px #d6d7dc solid;text-align: left;box-shadow: 0px 3px #c00c00 inset;background: #fcfcfb;margin-top:40px;}
+.discuss-area .editorbox{padding:0 36px;}
+.discuss-area .editorbox .top {height: 80px;line-height: 80px;}
+.discuss-area .editorbox .top span{float: right;padding: 0 4px}
+.discuss-area .editorbox .top span em{color: red;padding:6px;}
+.discuss-area .editorbox textarea{width: 100%;margin-bottom: 20px}
+.discuss-area .editorbox .action{float: right;}
+.discuss-area .editorbox .action a{float: left;text-decoration: none;margin-left: 50px;}
+.discuss-area .editorbox .action a.login{margin-top: 10px;}
+.discuss-area .editorbox .action a.publish{height: 34px;line-height: 34px;width: 120px;text-align: center;color: #fff;border-radius: 4px;background: #ff8500;font-size: 18px;}
+
+/* 最新评论 */
+
+.discuss-area .hotdiscuss .title{height: 60px;line-height: 60px;background:#f4f3f1;padding-left:30px; }
+.discuss-area .hotdiscuss{margin: 20px 0px;border-top:1px #fff solid;}
+.discuss-area .hotdiscuss .title h3{font-size: 16px;float: left;}
+.discuss-area .hotdiscuss .title .refresh{float: left;width: 66px;height: 24px;line-height: 24px;text-align: center;background: #fff;border:1px solid #d6d7dc;margin-top:16px;margin-left: 20px;}
+.discuss-area .hotdiscuss .content .item{border-top:1px #d6d7dc solid;position: relative;background: #fff}
+.discuss-area .hotdiscuss .content .item .head{height: 48px;width: 48px;border-radius: 100%;position: absolute;padding:30px 20px 20px 20px;}
+.discuss-area .hotdiscuss .content .item .head img{height: 48px;width: 48px;border-radius: 100%}
+.discuss-area .hotdiscuss .content .item .con .info{color:#ff8500}
+.discuss-area .hotdiscuss .content .item .con{margin-left: 80px;padding:20px 0;}
+.discuss-area .hotdiscuss .content .item .con p{font-size: 14px;line-height: 28px;}
+.discuss-area .hotdiscuss .content .item .action{line-height: 48px;height: 48px;}
+.discuss-area .hotdiscuss .content .item .action .time{float: left;}
+.discuss-area .hotdiscuss .content .item .action span{float: right;padding: 0 8px;}
+
+/* 回复评论 */
+.answer-wapper{position: relative;border-top: 1px #d6d7dc solid;padding-top:20px;background: #fcfcfb}
+.answer-wapper .photo{height: 48px;width: 48px;border-radius: 100%;position: absolute;padding:30px 20px 20px 20px;}
+.answer-wapper .photo img{height: 48px;width: 48px;border-radius: 100%}
+.answer-wapper .editor{margin-left: 90px;width: 100%;padding:10px 0;}
+.answer-wapper .editor textarea{width:calc(100% - 110px) }
+.answer-wapper .action{float: right;}
+.answer-wapper .action{float: right;}
+.answer-wapper .action a{float: left;text-decoration: none;margin-left: 50px;}
+.answer-wapper .action a.publish{height: 34px;line-height: 34px;width: 120px;text-align: center;color: #fff;border-radius: 4px;background: #ff8500;font-size: 18px;margin-right: 20px;margin-top: 4px;}
+
+
